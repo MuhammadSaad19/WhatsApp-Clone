@@ -1,0 +1,10 @@
+body{
+    font-family: roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+    padding-left: 45px;
+    padding-top:45px;
+    overflow: hidden;
+    min-width: 800px;
+}

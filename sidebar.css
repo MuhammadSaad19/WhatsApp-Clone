@@ -1,0 +1,49 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 40px;
+    width: 45px;
+    z-index: 100;
+    border-right: 1px solid rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
+
+}
+.sidebar img{
+    height: 26px;
+    width: 26px;
+}
+.top-side{
+height: 280px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+.pic-one{
+    margin-top: 10px;
+}
+.meta{
+    margin-top: 15px;
+}
+.bottom-side{
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.archieve,.current-user{
+    margin-top: 10px;
+}
+.setting{
+    margin-top: 15px;
+}
+
+.pic-one:hover,.stars:hover,.archieve:hover,.setting:hover,.current-user:hover{
+    opacity: 0.5;
+}
